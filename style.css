@@ -1,0 +1,42 @@
+* {
+  background-color: rgb(0, 0, 0);
+ 
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  -ms-flex-align: center;
+}
+
+.box {
+  background-color: rgb(27, 190, 5);
+  height: 25px;
+  width: 25px;
+  position: absolute; 
+
+}
+
+.apple {
+  background-color: red;
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.noti {
+    margin-top: 50%;
+  font-family: sans-serif;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.game-container{
+  width: 775px;
+  height: 775px;
+  border: white solid 1px;
+  margin-top: 2% ;
+  
+}
